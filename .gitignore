@@ -3,4 +3,5 @@
 *.tar
 *test*
 node_modules/*
-\#*
+\#**.bak
+*.old
