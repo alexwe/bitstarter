@@ -102,6 +102,11 @@
       width:180px;
       margin: 0 auto;
       }
+      <!-- same centering for bitcoin payment button -->
+      div.btc-wrapper {
+      width:180px;
+      margin: 0 auto;
+      }
     </style>
     <script type="text/javascript">
 
@@ -226,21 +231,24 @@
       <!-- http://placehold.it -->
       <div class="row-fluid section1">
         <div class="span5 offset1 asset">
-          <img class="img-polaroid"  alt="Placeholder" src="http://placehold.it/480x300">
+          <img class="img-polaroid"  
+	       alt="Placeholder" 
+	       src="http://placehold.it/480x300">
         </div>
         <div class="span5 copy">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-            porta, dui sagittis hendrerit rutrum, nunc leo tempus nisl, eu
-            mollis justo velit at nunc. Fusce nec egestas sem. Donec
-            fringilla ante lectus, a pellentesque lacus dignissim ac. Sed
-            volutpat lorem ut congue malesuada. In facilisis scelerisque
-            turpis sed lacinia. Donec in orci lectus. Donec auctor semper
-            quam, eget rhoncus purus fringilla id. Phasellus id nibh eu
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+	    Donec porta, dui sagittis hendrerit rutrum, nunc leo 
+	    tempus nisl, eu mollis justo velit at nunc. Fusce nec 
+	    egestas sem. Donec fringilla ante lectus, a pellentesque
+	    lacus dignissim ac. Sed volutpat lorem ut congue 
+	    malesuada. In facilisis scelerisque turpis sed lacinia. 
+	    Donec in orci lectus. Donec auctor semper quam, eget 
+	    rhoncus purus fringilla id. Phasellus id nibh eu
             risus ultrices adipiscing.  Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit. Donec porta, dui sagittis hendrerit
-            rutrum, nunc leo tempus nisl, eu mollis justo velit at
-            nunc. Fusce nec egestas sem. Donec fringilla.
+            consectetur adipiscing elit. Donec porta, dui sagittis 
+	    hendrerit rutrum, nunc leo tempus nisl, eu mollis justo 
+	    velit at nunc. Fusce nec egestas sem. Donec fringilla.
           </p>
         </div>
       </div>
@@ -248,22 +256,33 @@
       <div class="row-fluid section2">
         <div class="span5 offset1 copy copy-right">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-            porta, dui sagittis hendrerit rutrum, nunc leo tempus nisl, eu
-            mollis justo velit at nunc. Fusce nec egestas sem. Donec
-            fringilla ante lectus, a pellentesque lacus dignissim ac. Sed
-            volutpat lorem ut congue malesuada. In facilisis scelerisque
-            turpis sed lacinia. Donec in orci lectus. Donec auctor semper
-            quam, eget rhoncus purus fringilla id. Phasellus id nibh eu
+	    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+	    Donec porta, dui sagittis hendrerit rutrum, nunc leo 
+	    tempus nisl, eu mollis justo velit at nunc. Fusce nec 
+	    egestas sem. Donec fringilla ante lectus, a pellentesque
+	    lacus dignissim ac. Sed volutpat lorem ut congue 
+	    malesuada. In facilisis scelerisque turpis sed lacinia. 
+	    Donec in orci lectus. Donec auctor semper quam, eget 
+	    rhoncus purus fringilla id. Phasellus id nibh eu
             risus ultrices adipiscing.  Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit. Donec porta, dui sagittis hendrerit
-            rutrum, nunc leo tempus nisl, eu mollis justo velit at
-            nunc. Fusce nec egestas sem. Donec fringilla.
+            consectetur adipiscing elit. Donec porta, dui sagittis 
+	    hendrerit rutrum, nunc leo tempus nisl, eu mollis justo 
+	    velit at nunc. Fusce nec egestas sem. Donec fringilla.
           </p>
         </div>
         <div class="span5 asset">
           <img class="img-polaroid"  alt="Placeholder" src="http://placehold.it/480x300">
         </div>
+      </div>
+
+      <div class="btc-wrapper">
+	<!-- Bitcoin payment button -->
+	<a class="coinbase-button" 
+	   data-button-style="custom_large"
+	   data-button-text="Preorder with Bitcoin"
+	   data-code="04f1494b157a4cc45f3fd0f3ef517394" 
+	   href="https://coinbase.com/checkouts/04f1494b157a4cc45f3fd0f3ef517394">Preorder with Bitcoin</a>
+	<script src="https://coinbase.com/assets/button.js" type="text/javascript"></script>
       </div>
 
       <!-- For the FAQ, we introduce a little bit of JS, using the accordion. -->
@@ -316,6 +335,7 @@
         </div>
       </div>
     </div>
+
     <div class="span8 offset2 social">
       <!-- AddThis Button BEGIN -->
       <div class="addthis_toolbox addthis_default_style addthis_32x32_style">
